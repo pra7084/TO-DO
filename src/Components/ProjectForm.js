@@ -24,6 +24,7 @@ const ProjectForm = () => {
       </div>
       <div className='date'>
         <label>DUE DATE</label>
+
         <input id="text" type="datetime-local"></input>
       </div>
     </form>
