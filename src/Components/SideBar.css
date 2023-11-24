@@ -1,0 +1,41 @@
+.screen{
+    display: flex;
+}
+#button{
+        background-color: rgb(38, 37, 37);
+    color:rgb(113, 109, 109);
+    border:none;
+    margin:20px;
+    border-radius: 8px;
+    height:3rem;
+    width:10rem;
+    font-size: 17px;
+    padding:2px;
+}
+#button:hover{
+    color:white;
+    background-color: rgb(53, 51, 51);
+}
+.outer_container{
+    height:90vh;
+    width:35vw;
+    margin-top:10vh;
+    border-radius:0px 20px 0px 0px;
+    color:white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    font-family:monospace;
+    margin-top: 5rem;
+    font-size:1.5rem;
+    font-weight:700;
+
+}
+@media (min-width:1200px) {
+     .outer_container{
+        width:30em;
+     }   
+}

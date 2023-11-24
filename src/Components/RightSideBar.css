@@ -1,0 +1,36 @@
+#image{
+    width: 80px;
+    height:90px;
+    background-color: white;
+}
+.project_button{
+     background-color: rgb(38, 37, 37);
+    color:rgb(113, 109, 109);
+    border:none;
+    border-radius: 8px;
+    height:3rem;
+    width:11rem;
+    font-size: 17px;
+    padding:2px;
+    
+}
+.project_button:hover{
+     color:white;
+    background-color: rgb(53, 51, 51);
+}
+.right_container{
+    width:65vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: 700;
+    font-size:1.4rem;
+    letter-spacing: normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.front_description{
+    font-size:15px;
+    font-weight: 100;
+}
