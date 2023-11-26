@@ -15,8 +15,8 @@ const SideBar = () => {
           <button onClick={formOpenHandler} id="button">+ Add Project</button>
 
         </div>
-        <RightSideBar formOpener={formOpen} />
-       
+        <RightSideBar formOpener={formOpen}  />
+      
       </div>
     </>
   );

@@ -18,6 +18,11 @@ form{
     height:2.5rem;
        margin-bottom:20px;
        font-size: 18px;
+       outline: none;
+       
+}
+#text:focus{
+    border-bottom: 2px solid black;
 }
 #text_d{
        width:100%;
@@ -26,6 +31,10 @@ form{
     height:4rem;
     margin-bottom:20px;
     font-size: 22px;
+    outline: none;
+}
+#text_d:focus{
+    border-bottom: 2px solid black;
 }
 .description{
  display: flex;
